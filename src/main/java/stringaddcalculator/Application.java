@@ -8,5 +8,6 @@ public class Application {
         // 문제의 조건 상 반드시 쉼표 또는 콜론을 넣어줘야하기 때문
         System.out.println(stringCheck.checkText("1:23"));
         System.out.println(stringCheck.checkText("1:2,3"));
+        System.out.println(stringCheck.checkText("1"));
     }
 }

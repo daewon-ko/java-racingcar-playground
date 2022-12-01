@@ -1,11 +1,9 @@
 package stringaddcalculator;
 
-import java.util.Scanner;
-
 public class StringAddCalculator {
     //text에 대해서 예외처리를 해주는 로직도 필요할 것 같은데 어떻게 작성해야할 지 감이 오지 않음.
     // input으로 받아서 유효성 검증을 처리해주는 로직을 설계해주면 되지 않을까?
-    Input input = new Input();
+    Validator input = new Validator();
 
     public static int splitAndSum(String text) {
 //        Input.getText() = text;
